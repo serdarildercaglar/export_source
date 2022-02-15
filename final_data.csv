@@ -1,0 +1,315 @@
+,relations,entity1,chunk1,entity2,chunk2
+0,DOSAGE-DRUG,DOSAGE,1 unit,DRUG,Advil
+1,DRUG-DURATION,DRUG,Advil,DURATION,for 5 days
+2,DOSAGE-DRUG,DOSAGE,1 unit,DRUG,Metformin
+3,DRUG-FREQUENCY,DRUG,Metformin,FREQUENCY,daily
+4,DOSAGE-DRUG,DOSAGE,40 units,DRUG,insulin glargine
+5,DRUG-FREQUENCY,DRUG,insulin glargine,FREQUENCY,at night
+6,DOSAGE-DRUG,DOSAGE,12 units,DRUG,insulin lispro
+7,DRUG-FREQUENCY,DRUG,insulin lispro,FREQUENCY,with meals
+8,DRUG-STRENGTH,DRUG,metformin,STRENGTH,1000 mg
+9,DRUG-FREQUENCY,DRUG,metformin,FREQUENCY,two times a day
+10,OVERLAP,TREATMENT,Advil,DURATION,5 days
+11,OVERLAP,TREATMENT,Metformin,FREQUENCY,daily
+12,BEFORE,CLINICAL_DEPT,the endocrinology service,OCCURRENCE,discharged
+13,OVERLAP,CLINICAL_DEPT,the endocrinology service,TREATMENT,insulin glargine
+14,OVERLAP,CLINICAL_DEPT,the endocrinology service,DATE,night
+15,OVERLAP,CLINICAL_DEPT,the endocrinology service,TREATMENT,insulin lispro
+16,OVERLAP,CLINICAL_DEPT,the endocrinology service,TREATMENT,metformin
+17,OVERLAP,CLINICAL_DEPT,the endocrinology service,FREQUENCY,two times a day
+18,BEFORE,OCCURRENCE,discharged,TREATMENT,insulin glargine
+19,BEFORE,OCCURRENCE,discharged,TREATMENT,insulin lispro
+20,BEFORE,OCCURRENCE,discharged,TREATMENT,metformin
+21,BEFORE,OCCURRENCE,discharged,FREQUENCY,two times a day
+22,OVERLAP,TREATMENT,insulin glargine,DATE,night
+23,OVERLAP,TREATMENT,insulin glargine,TREATMENT,insulin lispro
+24,OVERLAP,TREATMENT,insulin glargine,TREATMENT,metformin
+25,OVERLAP,TREATMENT,insulin glargine,FREQUENCY,two times a day
+26,OVERLAP,DATE,night,TREATMENT,insulin lispro
+27,OVERLAP,DATE,night,TREATMENT,metformin
+28,OVERLAP,DATE,night,FREQUENCY,two times a day
+29,OVERLAP,TREATMENT,insulin lispro,TREATMENT,metformin
+30,OVERLAP,TREATMENT,insulin lispro,FREQUENCY,two times a day
+31,OVERLAP,TREATMENT,metformin,FREQUENCY,two times a day
+32,DURATION-DRUG,DURATION,five-day,DRUG,amoxicillin
+33,DRUG-DURATION,DRUG,dapagliflozin,DURATION,for six months
+34,DRUG-ROUTE,DRUG,insulin,ROUTE,drip
+41,BEFORE,PROBLEM,gestational diabetes mellitus,OCCURRENCE,presentation
+42,OVERLAP,PROBLEM,gestational diabetes mellitus,PROBLEM,subsequent type two diabetes mellitus
+43,OVERLAP,PROBLEM,gestational diabetes mellitus,PROBLEM,T2DM
+44,OVERLAP,PROBLEM,gestational diabetes mellitus,PROBLEM,HTG-induced pancreatitis
+45,OVERLAP,PROBLEM,gestational diabetes mellitus,DURATION,three years
+46,OVERLAP,PROBLEM,gestational diabetes mellitus,EVIDENTIAL,presentation
+47,OVERLAP,PROBLEM,gestational diabetes mellitus,PROBLEM,obesity
+48,OVERLAP,PROBLEM,gestational diabetes mellitus,PROBLEM,a body mass index ( BMI
+49,BEFORE,PROBLEM,gestational diabetes mellitus,OCCURRENCE,presented
+50,OVERLAP,PROBLEM,gestational diabetes mellitus,DURATION,a one-week
+51,BEFORE,PROBLEM,gestational diabetes mellitus,PROBLEM,polyuria
+52,OVERLAP,PROBLEM,gestational diabetes mellitus,PROBLEM,polydipsia
+53,OVERLAP,PROBLEM,gestational diabetes mellitus,PROBLEM,poor appetite
+54,OVERLAP,PROBLEM,gestational diabetes mellitus,PROBLEM,vomiting
+55,OVERLAP,DURATION,eight years,PROBLEM,subsequent type two diabetes mellitus
+56,OVERLAP,DURATION,eight years,PROBLEM,T2DM
+57,OVERLAP,DURATION,eight years,PROBLEM,HTG-induced pancreatitis
+58,OVERLAP,DURATION,eight years,DURATION,three years
+59,OVERLAP,DURATION,eight years,EVIDENTIAL,presentation
+60,OVERLAP,DURATION,eight years,PROBLEM,an acute hepatitis
+61,OVERLAP,DURATION,eight years,PROBLEM,obesity
+62,OVERLAP,DURATION,eight years,PROBLEM,a body mass index ( BMI
+63,BEFORE,DURATION,eight years,OCCURRENCE,presented
+64,OVERLAP,DURATION,eight years,DURATION,a one-week
+65,BEFORE,DURATION,eight years,PROBLEM,polyuria
+66,OVERLAP,DURATION,eight years,PROBLEM,polydipsia
+67,OVERLAP,DURATION,eight years,PROBLEM,poor appetite
+68,OVERLAP,DURATION,eight years,PROBLEM,vomiting
+69,OVERLAP,OCCURRENCE,presentation,PROBLEM,subsequent type two diabetes mellitus
+70,OVERLAP,OCCURRENCE,presentation,PROBLEM,T2DM
+71,OVERLAP,OCCURRENCE,presentation,PROBLEM,HTG-induced pancreatitis
+72,OVERLAP,OCCURRENCE,presentation,EVIDENTIAL,presentation
+73,BEFORE,OCCURRENCE,presentation,PROBLEM,an acute hepatitis
+74,BEFORE,OCCURRENCE,presentation,PROBLEM,obesity
+75,OVERLAP,OCCURRENCE,presentation,PROBLEM,a body mass index ( BMI
+76,BEFORE,OCCURRENCE,presentation,OCCURRENCE,presented
+77,OVERLAP,OCCURRENCE,presentation,DURATION,a one-week
+78,BEFORE,OCCURRENCE,presentation,PROBLEM,polyuria
+79,BEFORE,OCCURRENCE,presentation,PROBLEM,polydipsia
+80,OVERLAP,PROBLEM,subsequent type two diabetes mellitus,PROBLEM,T2DM
+81,OVERLAP,PROBLEM,subsequent type two diabetes mellitus,PROBLEM,HTG-induced pancreatitis
+82,OVERLAP,PROBLEM,subsequent type two diabetes mellitus,DURATION,three years
+83,BEFORE,PROBLEM,subsequent type two diabetes mellitus,EVIDENTIAL,presentation
+84,OVERLAP,PROBLEM,subsequent type two diabetes mellitus,PROBLEM,an acute hepatitis
+85,OVERLAP,PROBLEM,subsequent type two diabetes mellitus,PROBLEM,obesity
+86,OVERLAP,PROBLEM,subsequent type two diabetes mellitus,PROBLEM,a body mass index ( BMI
+87,BEFORE,PROBLEM,subsequent type two diabetes mellitus,OCCURRENCE,presented
+88,OVERLAP,PROBLEM,subsequent type two diabetes mellitus,DURATION,a one-week
+89,OVERLAP,PROBLEM,subsequent type two diabetes mellitus,PROBLEM,polyuria
+90,OVERLAP,PROBLEM,subsequent type two diabetes mellitus,PROBLEM,polydipsia
+91,OVERLAP,PROBLEM,subsequent type two diabetes mellitus,PROBLEM,poor appetite
+92,OVERLAP,PROBLEM,subsequent type two diabetes mellitus,PROBLEM,vomiting
+93,OVERLAP,PROBLEM,T2DM,PROBLEM,HTG-induced pancreatitis
+94,OVERLAP,PROBLEM,T2DM,DURATION,three years
+95,OVERLAP,PROBLEM,T2DM,EVIDENTIAL,presentation
+96,OVERLAP,PROBLEM,T2DM,PROBLEM,an acute hepatitis
+97,OVERLAP,PROBLEM,T2DM,PROBLEM,obesity
+98,OVERLAP,PROBLEM,T2DM,PROBLEM,a body mass index ( BMI
+99,BEFORE,PROBLEM,T2DM,OCCURRENCE,presented
+100,OVERLAP,PROBLEM,T2DM,DURATION,a one-week
+101,OVERLAP,PROBLEM,T2DM,PROBLEM,polyuria
+102,OVERLAP,PROBLEM,T2DM,PROBLEM,polydipsia
+103,OVERLAP,PROBLEM,T2DM,PROBLEM,poor appetite
+104,OVERLAP,PROBLEM,T2DM,PROBLEM,vomiting
+105,OVERLAP,PROBLEM,HTG-induced pancreatitis,DURATION,three years
+106,OVERLAP,PROBLEM,HTG-induced pancreatitis,EVIDENTIAL,presentation
+107,OVERLAP,PROBLEM,HTG-induced pancreatitis,PROBLEM,an acute hepatitis
+108,OVERLAP,PROBLEM,HTG-induced pancreatitis,PROBLEM,obesity
+109,OVERLAP,PROBLEM,HTG-induced pancreatitis,PROBLEM,a body mass index ( BMI
+110,BEFORE,PROBLEM,HTG-induced pancreatitis,OCCURRENCE,presented
+111,OVERLAP,PROBLEM,HTG-induced pancreatitis,DURATION,a one-week
+112,OVERLAP,PROBLEM,HTG-induced pancreatitis,PROBLEM,polyuria
+113,OVERLAP,PROBLEM,HTG-induced pancreatitis,PROBLEM,polydipsia
+114,OVERLAP,PROBLEM,HTG-induced pancreatitis,PROBLEM,poor appetite
+115,OVERLAP,PROBLEM,HTG-induced pancreatitis,PROBLEM,vomiting
+116,OVERLAP,DURATION,three years,EVIDENTIAL,presentation
+117,OVERLAP,DURATION,three years,PROBLEM,an acute hepatitis
+118,OVERLAP,DURATION,three years,PROBLEM,obesity
+119,OVERLAP,DURATION,three years,PROBLEM,a body mass index ( BMI
+120,BEFORE,DURATION,three years,OCCURRENCE,presented
+121,OVERLAP,DURATION,three years,DURATION,a one-week
+122,BEFORE,DURATION,three years,PROBLEM,polyuria
+123,OVERLAP,DURATION,three years,PROBLEM,polydipsia
+124,OVERLAP,DURATION,three years,PROBLEM,poor appetite
+125,OVERLAP,DURATION,three years,PROBLEM,vomiting
+126,BEFORE,EVIDENTIAL,presentation,PROBLEM,an acute hepatitis
+127,OVERLAP,EVIDENTIAL,presentation,PROBLEM,obesity
+128,OVERLAP,EVIDENTIAL,presentation,PROBLEM,a body mass index ( BMI
+129,OVERLAP,EVIDENTIAL,presentation,DURATION,a one-week
+130,BEFORE,EVIDENTIAL,presentation,PROBLEM,polyuria
+131,BEFORE,EVIDENTIAL,presentation,PROBLEM,polydipsia
+132,BEFORE,EVIDENTIAL,presentation,PROBLEM,poor appetite
+133,BEFORE,EVIDENTIAL,presentation,PROBLEM,vomiting
+134,OVERLAP,PROBLEM,an acute hepatitis,PROBLEM,obesity
+135,OVERLAP,PROBLEM,an acute hepatitis,PROBLEM,a body mass index ( BMI
+136,BEFORE,PROBLEM,an acute hepatitis,OCCURRENCE,presented
+137,OVERLAP,PROBLEM,an acute hepatitis,DURATION,a one-week
+138,OVERLAP,PROBLEM,an acute hepatitis,PROBLEM,polyuria
+139,OVERLAP,PROBLEM,an acute hepatitis,PROBLEM,polydipsia
+140,OVERLAP,PROBLEM,an acute hepatitis,PROBLEM,poor appetite
+141,OVERLAP,PROBLEM,an acute hepatitis,PROBLEM,vomiting
+142,OVERLAP,PROBLEM,obesity,PROBLEM,a body mass index ( BMI
+143,BEFORE,PROBLEM,obesity,OCCURRENCE,presented
+144,OVERLAP,PROBLEM,obesity,DURATION,a one-week
+145,OVERLAP,PROBLEM,obesity,PROBLEM,polyuria
+146,OVERLAP,PROBLEM,obesity,PROBLEM,polydipsia
+147,OVERLAP,PROBLEM,obesity,PROBLEM,poor appetite
+148,OVERLAP,PROBLEM,obesity,PROBLEM,vomiting
+149,BEFORE,PROBLEM,a body mass index ( BMI,OCCURRENCE,presented
+150,OVERLAP,PROBLEM,a body mass index ( BMI,DURATION,a one-week
+151,OVERLAP,PROBLEM,a body mass index ( BMI,PROBLEM,polyuria
+152,OVERLAP,PROBLEM,a body mass index ( BMI,PROBLEM,polydipsia
+153,OVERLAP,PROBLEM,a body mass index ( BMI,PROBLEM,poor appetite
+154,OVERLAP,PROBLEM,a body mass index ( BMI,PROBLEM,vomiting
+155,BEFORE,OCCURRENCE,presented,DURATION,a one-week
+156,BEFORE,OCCURRENCE,presented,PROBLEM,polyuria
+157,BEFORE,OCCURRENCE,presented,PROBLEM,polydipsia
+158,BEFORE,OCCURRENCE,presented,PROBLEM,poor appetite
+159,BEFORE,OCCURRENCE,presented,PROBLEM,vomiting
+160,BEFORE,DURATION,a one-week,PROBLEM,polyuria
+161,OVERLAP,DURATION,a one-week,PROBLEM,polydipsia
+162,OVERLAP,DURATION,a one-week,PROBLEM,poor appetite
+163,OVERLAP,DURATION,a one-week,PROBLEM,vomiting
+164,OVERLAP,PROBLEM,polyuria,PROBLEM,polydipsia
+165,OVERLAP,PROBLEM,polyuria,PROBLEM,poor appetite
+166,OVERLAP,PROBLEM,polyuria,PROBLEM,vomiting
+167,OVERLAP,PROBLEM,polydipsia,PROBLEM,poor appetite
+168,OVERLAP,PROBLEM,polydipsia,PROBLEM,vomiting
+169,OVERLAP,PROBLEM,poor appetite,PROBLEM,vomiting
+170,BEFORE,DURATION,Two weeks,PROBLEM,a respiratory tract infection
+171,OVERLAP,DURATION,a five-day,TREATMENT,amoxicillin
+172,BEFORE,DURATION,a five-day,PROBLEM,a respiratory tract infection
+173,BEFORE,TREATMENT,amoxicillin,PROBLEM,a respiratory tract infection
+174,OVERLAP,TREATMENT,metformin,TREATMENT,glipizide
+175,OVERLAP,TREATMENT,metformin,TREATMENT,dapagliflozin
+176,OVERLAP,TREATMENT,metformin,PROBLEM,T2DM
+177,OVERLAP,TREATMENT,metformin,TREATMENT,atorvastatin
+178,OVERLAP,TREATMENT,metformin,TREATMENT,gemfibrozil
+179,OVERLAP,TREATMENT,metformin,PROBLEM,HTG
+180,OVERLAP,TREATMENT,glipizide,TREATMENT,dapagliflozin
+181,OVERLAP,TREATMENT,glipizide,PROBLEM,T2DM
+182,OVERLAP,TREATMENT,glipizide,TREATMENT,atorvastatin
+183,OVERLAP,TREATMENT,glipizide,TREATMENT,gemfibrozil
+184,OVERLAP,TREATMENT,glipizide,PROBLEM,HTG
+185,OVERLAP,TREATMENT,dapagliflozin,PROBLEM,T2DM
+186,OVERLAP,TREATMENT,dapagliflozin,TREATMENT,atorvastatin
+187,OVERLAP,TREATMENT,dapagliflozin,TREATMENT,gemfibrozil
+188,OVERLAP,TREATMENT,dapagliflozin,PROBLEM,HTG
+189,OVERLAP,PROBLEM,T2DM,TREATMENT,atorvastatin
+190,OVERLAP,PROBLEM,T2DM,TREATMENT,gemfibrozil
+191,OVERLAP,PROBLEM,T2DM,PROBLEM,HTG
+192,OVERLAP,TREATMENT,atorvastatin,TREATMENT,gemfibrozil
+193,OVERLAP,TREATMENT,atorvastatin,PROBLEM,HTG
+194,OVERLAP,TREATMENT,gemfibrozil,PROBLEM,HTG
+195,OVERLAP,TREATMENT,dapagliflozin,DURATION,six months
+196,BEFORE,TEST,Physical examination,PROBLEM,dry oral mucosa
+197,OVERLAP,TEST,her abdominal examination,PROBLEM,tenderness
+198,OVERLAP,TEST,her abdominal examination,PROBLEM,guarding
+199,OVERLAP,TEST,her abdominal examination,PROBLEM,rigidity
+200,OVERLAP,PROBLEM,tenderness,PROBLEM,guarding
+201,OVERLAP,PROBLEM,tenderness,PROBLEM,rigidity
+202,OVERLAP,PROBLEM,guarding,PROBLEM,rigidity
+203,OVERLAP,TEST,total cholesterol,TEST,venous pH
+204,OVERLAP,TEST,Serum acetone levels,TEST,blood samples
+205,OVERLAP,TEST,Serum acetone levels,PROBLEM,hemolyzing
+206,OVERLAP,TEST,blood samples,PROBLEM,hemolyzing
+207,OVERLAP,TEST,blood samples,PROBLEM,significant lipemia
+208,OVERLAP,PROBLEM,hemolyzing,PROBLEM,significant lipemia
+209,BEFORE,OCCURRENCE,admitted,PROBLEM,starvation ketosis
+210,BEFORE,OCCURRENCE,admitted,EVIDENTIAL,reported
+211,BEFORE,OCCURRENCE,admitted,PROBLEM,poor oral intake
+212,BEFORE,OCCURRENCE,admitted,DURATION,three days
+213,BEFORE,OCCURRENCE,admitted,OCCURRENCE,admission
+214,BEFORE,PROBLEM,starvation ketosis,EVIDENTIAL,reported
+215,BEFORE,PROBLEM,starvation ketosis,PROBLEM,poor oral intake
+216,BEFORE,PROBLEM,starvation ketosis,DURATION,three days
+217,BEFORE,PROBLEM,starvation ketosis,OCCURRENCE,admission
+218,BEFORE,EVIDENTIAL,reported,PROBLEM,poor oral intake
+219,BEFORE,EVIDENTIAL,reported,OCCURRENCE,admission
+220,OVERLAP,PROBLEM,poor oral intake,DURATION,three days
+221,BEFORE,PROBLEM,poor oral intake,OCCURRENCE,admission
+222,BEFORE,DURATION,three days,OCCURRENCE,admission
+223,OVERLAP,TEST,serum chemistry,DURATION,six hours
+224,OVERLAP,TEST,serum chemistry,EVIDENTIAL,revealed
+225,OVERLAP,TEST,serum chemistry,TEST,her glucose
+226,OVERLAP,TEST,serum chemistry,TEST,the anion gap
+227,OVERLAP,TEST,serum chemistry,PROBLEM,elevated
+228,OVERLAP,TEST,serum chemistry,TEST,serum bicarbonate
+229,OVERLAP,TEST,serum chemistry,TEST,triglyceride level
+230,OVERLAP,TEST,serum chemistry,TEST,mg/dL
+231,OVERLAP,TEST,serum chemistry,TEST,lipase
+232,AFTER,DURATION,six hours,OCCURRENCE,presentation
+233,OVERLAP,DURATION,six hours,TEST,her glucose
+234,OVERLAP,DURATION,six hours,TEST,serum bicarbonate
+235,OVERLAP,DURATION,six hours,TEST,triglyceride level
+236,OVERLAP,DURATION,six hours,TEST,mg/dL
+237,OVERLAP,OCCURRENCE,presentation,EVIDENTIAL,revealed
+238,BEFORE,OCCURRENCE,presentation,TEST,her glucose
+239,BEFORE,OCCURRENCE,presentation,TEST,the anion gap
+240,BEFORE,EVIDENTIAL,revealed,TEST,her glucose
+241,OVERLAP,EVIDENTIAL,revealed,TEST,the anion gap
+242,OVERLAP,EVIDENTIAL,revealed,PROBLEM,elevated
+243,OVERLAP,EVIDENTIAL,revealed,TEST,serum bicarbonate
+244,OVERLAP,EVIDENTIAL,revealed,TEST,triglyceride level
+245,OVERLAP,EVIDENTIAL,revealed,TEST,mg/dL
+246,OVERLAP,EVIDENTIAL,revealed,TEST,lipase
+247,OVERLAP,TEST,her glucose,TEST,the anion gap
+248,OVERLAP,TEST,her glucose,PROBLEM,elevated
+249,OVERLAP,TEST,her glucose,TEST,serum bicarbonate
+250,OVERLAP,TEST,her glucose,TEST,triglyceride level
+251,OVERLAP,TEST,her glucose,TEST,mg/dL
+252,OVERLAP,TEST,her glucose,TEST,lipase
+253,OVERLAP,TEST,the anion gap,PROBLEM,elevated
+254,OVERLAP,TEST,the anion gap,TEST,serum bicarbonate
+255,OVERLAP,TEST,the anion gap,TEST,triglyceride level
+256,OVERLAP,TEST,the anion gap,TEST,mg/dL
+257,OVERLAP,TEST,the anion gap,TEST,lipase
+258,OVERLAP,PROBLEM,elevated,TEST,serum bicarbonate
+259,OVERLAP,PROBLEM,elevated,TEST,triglyceride level
+260,OVERLAP,PROBLEM,elevated,TEST,mg/dL
+261,OVERLAP,PROBLEM,elevated,TEST,lipase
+262,OVERLAP,TEST,serum bicarbonate,TEST,triglyceride level
+263,OVERLAP,TEST,serum bicarbonate,TEST,mg/dL
+264,OVERLAP,TEST,serum bicarbonate,TEST,lipase
+265,OVERLAP,TEST,triglyceride level,TEST,mg/dL
+266,OVERLAP,TEST,triglyceride level,TEST,lipase
+267,OVERLAP,TEST,mg/dL,TEST,lipase
+268,OVERLAP,TEST,The β-hydroxybutyrate level,PROBLEM,elevated
+269,OVERLAP,TEST,The β-hydroxybutyrate level,TEST,the original sample
+270,OVERLAP,TEST,The β-hydroxybutyrate level,TEST,the chylomicron layer
+271,OVERLAP,PROBLEM,elevated,TEST,the original sample
+272,OVERLAP,PROBLEM,elevated,PROBLEM,interference from turbidity
+273,OVERLAP,PROBLEM,elevated,PROBLEM,lipemia
+274,OVERLAP,TEST,the original sample,TEST,the chylomicron layer
+275,OVERLAP,TEST,the original sample,TEST,analysis
+276,OVERLAP,TEST,the original sample,PROBLEM,interference from turbidity
+277,BEFORE,TEST,the chylomicron layer,OCCURRENCE,removed
+278,BEFORE,TEST,the chylomicron layer,TEST,analysis
+279,BEFORE,TEST,the chylomicron layer,PROBLEM,interference from turbidity
+280,BEFORE,TEST,the chylomicron layer,PROBLEM,lipemia
+281,BEFORE,OCCURRENCE,removed,PROBLEM,interference from turbidity
+282,OVERLAP,TREATMENT,an insulin drip,PROBLEM,euDKA
+283,OVERLAP,TREATMENT,an insulin drip,PROBLEM,HTG
+284,OVERLAP,TREATMENT,an insulin drip,TREATMENT,a reduction in the anion gap
+285,OVERLAP,TREATMENT,an insulin drip,TEST,triglycerides
+286,OVERLAP,TREATMENT,an insulin drip,DURATION,24 hours
+287,OVERLAP,PROBLEM,euDKA,PROBLEM,HTG
+288,OVERLAP,PROBLEM,euDKA,TREATMENT,a reduction in the anion gap
+289,OVERLAP,PROBLEM,euDKA,TEST,triglycerides
+290,OVERLAP,PROBLEM,euDKA,DURATION,24 hours
+291,OVERLAP,PROBLEM,HTG,TREATMENT,a reduction in the anion gap
+292,OVERLAP,PROBLEM,HTG,TEST,triglycerides
+293,OVERLAP,PROBLEM,HTG,DURATION,24 hours
+294,OVERLAP,TREATMENT,a reduction in the anion gap,TEST,triglycerides
+295,OVERLAP,TREATMENT,a reduction in the anion gap,DURATION,24 hours
+296,OVERLAP,TEST,triglycerides,DURATION,24 hours
+297,OVERLAP,PROBLEM,Her euDKA,PROBLEM,her respiratory tract infection
+298,OVERLAP,PROBLEM,Her euDKA,TREATMENT,SGLT2 inhibitor
+299,OVERLAP,PROBLEM,her respiratory tract infection,TREATMENT,SGLT2 inhibitor
+0,OVERLAP,PROBLEM,cancer,DATE,1991
+1,AFTER,OCCURRENCE,admitted,CLINICAL_DEPT,Mayo Clinic
+2,BEFORE,OCCURRENCE,admitted,OCCURRENCE,discharged
+3,OVERLAP,CLINICAL_DEPT,Mayo Clinic,DATE,May 2000
+4,BEFORE,CLINICAL_DEPT,Mayo Clinic,OCCURRENCE,discharged
+5,OVERLAP,CLINICAL_DEPT,Mayo Clinic,DATE,October 2001
+6,BEFORE,DATE,May 2000,OCCURRENCE,discharged
+7,OVERLAP,DATE,May 2000,DATE,October 2001
+12,AFTER,OCCURRENCE,admitted,CLINICAL_DEPT,The John Hopkins Hospital
+13,BEFORE,OCCURRENCE,admitted,DATE,2 days ago
+14,BEFORE,OCCURRENCE,admitted,PROBLEM,gestational diabetes mellitus
+15,OVERLAP,CLINICAL_DEPT,The John Hopkins Hospital,DATE,2 days ago
+16,BEFORE,CLINICAL_DEPT,The John Hopkins Hospital,PROBLEM,gestational diabetes mellitus
+17,BEFORE,DATE,2 days ago,PROBLEM,gestational diabetes mellitus
+19,OVERLAP,CLINICAL_DEPT,the endocrinology service,DATE,03/02/2018
+24,OVERLAP,OCCURRENCE,discharged,DATE,03/02/2018
+29,OVERLAP,DATE,03/02/2018,TREATMENT,insulin glargine
+30,OVERLAP,DATE,03/02/2018,TREATMENT,insulin lispro
+31,OVERLAP,DATE,03/02/2018,TREATMENT,metformin
+32,OVERLAP,DATE,03/02/2018,FREQUENCY,two times a day
