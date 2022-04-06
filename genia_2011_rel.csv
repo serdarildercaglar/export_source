@@ -1,0 +1,52 @@
+entity1,chunk1,entity2,chunk2,relation
+Protein,beta globin,non_Protein,promoter,Protein-Component
+non_Protein,nuclear complex,Protein,TF,Subunit-Complex
+non_Protein,cis-elements,non_Protein,adult beta-like globin genes,Protein-Component
+non_Protein,cis-elements,Protein,delta,Protein-Component
+non_Protein,cis-elements,Protein,beta,Protein-Component
+non_Protein,DNA sequences,Protein,delta,Protein-Component
+non_Protein,DNA sequences,Protein,beta,Protein-Component
+Protein,delta,non_Protein,5' flanking regions,Protein-Component
+Protein,delta,non_Protein,promoter regions,Protein-Component
+Protein,beta,non_Protein,5' flanking regions,Protein-Component
+Protein,beta,non_Protein,promoter regions,Protein-Component
+Protein,delta,non_Protein,5' flanking regions,Protein-Component
+Protein,beta,non_Protein,5' flanking regions,Protein-Component
+Protein,delta,non_Protein,fragment,Protein-Component
+Protein,beta,non_Protein,fragment,Protein-Component
+Protein,beta globin,non_Protein,promoter,Protein-Component
+Protein,delta,non_Protein,promoter,Protein-Component
+non_Protein,upstream portion,Protein,delta,Protein-Component
+Protein,delta,non_Protein,promoter,Protein-Component
+Protein,beta globin,non_Protein,sequence,Protein-Component
+Protein,beta globin,non_Protein,upstream element,Protein-Component
+non_Protein,upstream portion,Protein,delta,Protein-Component
+non_Protein,upstream portion,Protein,beta globin,Protein-Component
+Protein,delta,non_Protein,promoter,Protein-Component
+Protein,beta globin,non_Protein,promoter,Protein-Component
+non_Protein,binding sites,non_Protein,beta globin gene flanking region,Protein-Component
+non_Protein,upstream portion,non_Protein,beta globin gene flanking region,Protein-Component
+non_Protein,upstream promoter region,Protein,beta globin,Protein-Component
+non_Protein,CR3,non_Protein,CD11b/CD18,Subunit-Complex
+non_Protein,NF-kappa B,non_Protein,p50/p65,Subunit-Complex
+non_Protein,DNA-binding heterodimer,non_Protein,NF-kappa B,Subunit-Complex
+non_Protein,DNA-binding heterodimer,non_Protein,p50/p65,Subunit-Complex
+non_Protein,NF-kappa B,non_Protein,p50/p65,Subunit-Complex
+non_Protein,CR3,non_Protein,CD11b/CD18,Subunit-Complex
+non_Protein,NF-kappa B,non_Protein,p50/p65,Subunit-Complex
+non_Protein,NF-kappa B,non_Protein,p50/p65,Subunit-Complex
+non_Protein,NF-kappa B,non_Protein,p50/p65,Subunit-Complex
+non_Protein,nuclear complex,Protein,TF,Subunit-Complex
+non_Protein,kappa B-like site,Protein,TF,Protein-Component
+non_Protein,5'-CGGAGTTTCC-3,Protein,TF,Protein-Component
+non_Protein,5'-flanking region,Protein,TF,Protein-Component
+Protein,TF,non_Protein,site,Protein-Component
+Protein,c-Rel,non_Protein,homodimers,Subunit-Complex
+Protein,p65,non_Protein,homodimers,Subunit-Complex
+Protein,p50,non_Protein,homodimers,Subunit-Complex
+Protein,TF,non_Protein,site,Protein-Component
+Protein,TF,non_Protein,complex,Subunit-Complex
+Protein,p50,non_Protein,complex,Subunit-Complex
+Protein,TF,non_Protein,complex,Subunit-Complex
+Protein,TF,non_Protein,kappa B-like site,Protein-Component
+non_Protein,kappa B-like site,Protein,TF,Protein-Component
