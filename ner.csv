@@ -1,0 +1,20 @@
+,n1,entity1,relation,relation_type,n2,entity2
+0,Atatürk,PER,born,flat,Salonika,LOC
+1,Atatürk,PER,founder,flat,Republic of Turkey,LOC
+2,George Washington,PER,went,nsubj,Washington,LOC
+3,Donald Trump,PER,president,flat,US,LOC
+4,New York Times,ORG,New York,New York,New York,LOC
+5,Zarrab,PER,arrested,flat,Miami,LOC
+6,Miami,LOC,located,flat,Florida,LOC
+7,John Snow,PER,born,flat,England,LOC
+8,John Snow,PER,lives,flat,New York,LOC
+9,Peter,PER,lives,flat,New York,LOC
+10,Peter,PER,works,nsubj,Microsoft,ORG
+11,Mary,PER,born,flat,Paris,LOC
+12,Mary,PER,works,nsubj,Google,ORG
+13,Google,ORG,based,flat,US,LOC
+14,George Washington,PER,born,flat,Virginia,LOC
+15,Washington,LOC,capital,flat,US,LOC
+16,England,LOC,located,flat,Europe,LOC
+17,George Washington,PER,founder,flat,US,LOC
+18,US,LOC,located,flat,North America,LOC
